@@ -22,13 +22,11 @@ class Program
             if (answer % 2 == 0)
             {
                 Console.WriteLine("Le nombre est pair");
-                
             }
             else
             {
                 Console.WriteLine("Le nombre est impair");
             }
-
             Console.WriteLine("Voulez Vous Réessayer");
             exit = Console.ReadLine(); 
 
