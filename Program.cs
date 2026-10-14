@@ -13,11 +13,10 @@ class Program
          */
 
         int answer = 0;
-        string exit = "";
 
         do
         {
-            Console.WriteLine("Entrez Votre Nombre");
+            Console.WriteLine("Entrez Un Nombre Entier");
             answer = Convert.ToInt32(Console.ReadLine());
             if (answer % 2 == 0)
             {
@@ -28,9 +27,8 @@ class Program
                 Console.WriteLine("Le nombre est impair");
             }
             Console.WriteLine("Voulez Vous Réessayer");
-            exit = Console.ReadLine(); 
 
-        } while (exit =="y");
-
+        } while (Console.ReadLine() =="y");
+        Console.WriteLine("Bismillah c'est les tenebres !!");
     }
 }
